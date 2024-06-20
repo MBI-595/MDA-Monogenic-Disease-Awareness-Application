@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/black"
+    android:layout_height="match_parent"
+    tools:context=".SequenceFragment">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="10dp">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="5dp">
+
+            <TextView
+                android:id="@+id/normalheading"
+                android:layout_width="344dp"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:padding="5dp"
+                android:text="Normal sequence"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="5dp"
+            android:paddingTop="10dp">
+
+            <TextView
+                android:id="@+id/NormalSequence"
+                android:layout_width="344dp"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:includeFontPadding="true"
+                android:padding="10dp"
+                android:scrollbars="vertical"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="5dp">
+
+            <TextView
+                android:id="@+id/n2"
+                android:layout_width="344dp"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:includeFontPadding="true"
+                android:padding="10dp"
+                android:scrollbars="vertical"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="5dp">
+
+            <TextView
+                android:id="@+id/n3"
+                android:layout_width="344dp"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:includeFontPadding="true"
+                android:padding="10dp"
+                android:scrollbars="vertical"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="5dp">
+
+            <TextView
+                android:id="@+id/n4"
+                android:layout_width="344dp"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:includeFontPadding="true"
+                android:padding="10dp"
+                android:scrollbars="vertical"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/neon"
+            android:text="View in Browser" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="5dp">
+
+            <TextView
+                android:id="@+id/mutatedheading"
+                android:layout_width="344dp"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:padding="5dp"
+                android:text="Mutated Sequence"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="5dp">
+
+            <TextView
+                android:id="@+id/mutatedsequence"
+                android:layout_width="344dp"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:includeFontPadding="true"
+                android:padding="10dp"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="5dp">
+
+            <TextView
+                android:id="@+id/mut2"
+                android:layout_width="344dp"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:includeFontPadding="true"
+                android:padding="10dp"
+                android:scrollbars="vertical"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="5dp">
+
+            <TextView
+                android:id="@+id/mut3"
+                android:layout_width="344dp"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:includeFontPadding="true"
+                android:padding="10dp"
+                android:scrollbars="vertical"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="5dp">
+
+            <TextView
+                android:id="@+id/mut4"
+                android:layout_width="344dp"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:includeFontPadding="true"
+                android:padding="10dp"
+                android:scrollbars="vertical"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/button6"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/neon"
+            android:text="View In Browser" />
+
+    </LinearLayout>
+</ScrollView>
